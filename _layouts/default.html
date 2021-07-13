@@ -3,19 +3,16 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="file:///C:\Projects\Python\site\css\main.css">
+			<link rel="stylesheet" type="text/css" href="main.css">
 		</head>
 		<body>
-        	<div class="sidebar">
-				
-			<ul>
-				<li><a href="a">Home</a></li>
-				<li><a href="a">Links</a></li>
-				<li><a href="a">Info</a></li>
-			</ul>
-			</div>
 			<div class="page">
-				{{ content }}
+				<div class="sidebar">
+					<img class="logo" src="/media/lss/orangelaser.svg">
+				</div>
+				<div class="content">
+					{{ content }}
+				</div>
 			</div>
 		</body>
 		

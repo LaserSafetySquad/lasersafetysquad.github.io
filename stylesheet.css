@@ -5,7 +5,7 @@ body {
     background-color: rgb(43, 43, 43);
 }
 
-.banner-image {
+.banner {
     background-image: url("media/lss/art4-no-txt.png");
     margin-top: 0em;
     height: 20vw;
@@ -62,6 +62,7 @@ button {
     font-size: 2em;
     padding: 2em;
     font-weight: bold;
+    font-family: "Tw Cen MT";
 }
 
 .link:hover {
@@ -71,6 +72,86 @@ button {
 
 .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.content-container {
+    margin: auto;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 94%;
+}
+
+.content {
+    color: rgb(212, 212, 212);
+    position: relative;
+    padding: 0em;
+    background-color: rgb(22, 22, 22);
+    /* border-left: 3px solid #FF5D00; */
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 50em;
+    min-width: 0;
+}
+
+.content-txt {
+    margin: 2em;
+}
+
+.read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0;
+    background-image: linear-gradient(to bottom, transparent, rgb(22, 22, 22));
+}
+
+.read-more a {
+    color: rgb(212, 212, 212);
+    font-size: 1.3em;
+    padding: 0.3em;
+    border-radius: 8px;
+    background-color: rgba(43, 43, 43, 0.75);
+    border: 1px solid #FF5D00;
+    transition-duration: 0.2s;
+}
+
+.read-more a:hover {
+    color: black;
+    background-color: rgba(0, 162, 255, 0.85);
+    border: none;
+}
+
+.smaller {
+    flex: 25%;
+}
+
+.larger {
+    flex: 75%;
+}
+
+p {
+    font-family: "Tw Cen MT";
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: Bahnschrift;
+    font-size: 3em;
+    font-style: normal;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: #FF5D00;
+}
+
+@media (max-width: 800px) {
+    .smaller, .larger {
+        flex: 100%;
+    }
 }
 
 .discord:hover {
@@ -99,39 +180,4 @@ button {
 
 .twitch:hover img {
     filter: saturate(100%) contrast(100%);
-}
-
-.content-body {
-    margin: auto;
-    margin-top: 1em;
-    display: flex;
-    width: 96%;
-}
-
-.content {
-    margin-right: 1em;
-    flex: 1;
-    color: rgb(212, 212, 212);
-    position: relative;
-    padding: 0em;
-    background-color: rgb(22, 22, 22);
-}
-
-.smaller {
-    flex: 0.5;
-}
-
-p {
-    font-family: "Tw Cen MT";
-    font-size: 1.2em;
-    margin: 2em;
-}
-
-h1 {
-    font-family: Bahnschrift;
-    font-size: 3em;
-    font-style: normal;
-    letter-spacing: 0.15em;
-    text-align: center;
-    color: #FF5D00;
 }
