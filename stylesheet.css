@@ -39,18 +39,19 @@ body {
 button {
     background: none;
     cursor: pointer;
-    transition-duration: 0.2s;
+    transition: background-color 0.2s, box-shadow 0.2s;
     border: none;
 }
 
 .button {
-    padding: 1vw 2vw;
+    padding: 0.8vw 1.8vw;
     border-radius: 8px;
     display: inline-block;
 }
 
 .button img {
-    height: 2vw;
+    height: 2.3vw;
+    transition: filter 0.2s;
 }
 
 .link {
@@ -66,10 +67,6 @@ button {
 .link:hover {
     background-color: #00A2FF;
     color: black;
-}
-
-img {
-    transition-duration: 0.2s;
 }
 
 .button:hover {
@@ -92,16 +89,12 @@ img {
     filter: saturate(100%) contrast(100%);
 }
 
-.youtube:hover {
+.youtube:hover, .twitch:hover {
     background-color: white;
 }
 
 .twitch img {
     filter: saturate(0%) contrast(400%);
-}
-
-.twitch:hover {
-    background-color: white;
 }
 
 .twitch:hover img {
