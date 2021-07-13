@@ -5,10 +5,10 @@ body {
     background-color: rgb(43, 43, 43);
 }
 
-.under-image {
-    background-image: url("media/art4.png");
+.banner-image {
+    background-image: url("media/lss/art4-no-txt.png");
     margin-top: 0em;
-    height: 20em;
+    height: 20vw;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -16,13 +16,24 @@ body {
     position: relative;
 }
 
-.button-list {
+.logo-txt {
+    text-align: center;
+    font-family: "LIBRARY 3 AM";
+    font-size: 3.3vw;
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fancy-buttons {
     text-align: center;
     position: absolute;
-    top: 75%;
-    left: 55%;
+    top: 69%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    float: left;
+    display: flex;
 }
 
 button {
@@ -33,9 +44,13 @@ button {
 }
 
 .button {
-    padding: 10px 25px;
+    padding: 1vw 2vw;
     border-radius: 8px;
     display: inline-block;
+}
+
+.button img {
+    height: 2vw;
 }
 
 .link {
