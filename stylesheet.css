@@ -19,7 +19,7 @@ body {
 .button-list {
     text-align: center;
     position: relative;
-    transform: translate(100%, 300%);
+    transform: translate(42em, 13em);
     float: left;
 }
 
