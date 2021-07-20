@@ -3,35 +3,44 @@
     <head>
         <title>LSS Main Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/stylesheet.css">
+        <link rel="stylesheet" href="assets/css/main.css">
     </head>
 
     <body>
         <div class="banner">
             <div class="logo-txt">LASER SAFETY SQUAD</div>
-            <div class="fancy-buttons">
-                <a href="https://www.discord.com"><button class="button discord"><img src="assets/media/brand/discord.png" alt="Discord"></button></a>
+            <div class="banner-buttons-container">
+                <a href="https://www.discord.com"><button class="discord"><img src="assets/media/brand/discord.png" alt="Discord"></button></a>
 
-                <a href="https://www.youtube.com/channel/UCGfSeuN8tfQmQaGXzmTkgWg/featured"><button class="button youtube"><img src="assets/media/brand/youtube.png" alt="Youtube"></button></a>
+                <a href="https://www.youtube.com/channel/UCGfSeuN8tfQmQaGXzmTkgWg/featured"><button class="youtube"><img src="assets/media/brand/youtube.png" alt="Youtube"></button></a>
 
-                <a href="https://www.twitch.tv/lasersafetysquad"><button class="button twitch"><img src="assets/media/brand/twitch.png" alt="Twitch"></button></a>
+                <a href="https://www.twitch.tv/lasersafetysquad"><button class="twitch"><img src="assets/media/brand/twitch.png" alt="Twitch"></button></a>
             </div>
         </div>
+
         <div class="content-container">
-            <div class="content smaller">
+
+            <div class="links-container">
                 <h1>LINKS</h1>
-                <a href="guides"><button class="link">Guides</button></a>
+                <a href="posts"><button class="link">Posts</button></a>
                 <a href="tools"><button class="link">Tools</button></a>
                 <a href="about"><button class="link">About</button></a>
                 <a href="contact"><button class="link">Contact</button></a>
             </div>
-            <div class="content larger">
+
+            <div class="post">
                 <h1>LATEST POST</h1>
                 {% assign post = site.posts.first %}
                 <article>
-                    <h2>{{ post.title }}</h2><h3>{{ post.date | date: "%Y-%m-%d" }}</h3><p>{{ post.content }}</p>
+                    <h2>{{ post.title }}</h2><h3>{{ post.date | date: " %Y.%m.%d" }}</h3><p>{{ post.content }}</p>
                 </article>
                 <p class="read-more"><a href="{{ post.url }}">Read this post</a></p>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="video">
+                <h1>LATEST VIDEO</h1>
+                <iframe width="600" height="340" src="https://www.youtube.com/channel/UCGfSeuN8tfQmQaGXzmTkgWg/videos?view=0&sort=dd" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </body>

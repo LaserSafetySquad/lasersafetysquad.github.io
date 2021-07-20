@@ -2,3 +2,4 @@ url: "https://lasersafetysquad.github.io" # the base hostname & protocol for you
 baseurl: "/site" # the subpath of your site, e.g. /blog
 title: "LASER site" # the name of your site, e.g. ACME Corp.
 ignore_theme_config: TRUE
+livereload: TRUE
