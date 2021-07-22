@@ -1,30 +1,31 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        <title>LSS Main Page</title>
+        <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" href="assets/css/home.css">
     </head>
 
     <body>
         <div class="banner">
-            <div class="logo-txt">LASER SAFETY SQUAD</div>
+            <div class="logo-txt">LASER SAFETY SQUAD</div><div class="est-txt">EST. 2020</div>
             <div class="banner-buttons-container">
                 <a href="https://www.discord.com"><button class="discord"><img src="assets/media/brand/discord.png" alt="Discord"></button></a>
 
                 <a href="https://www.youtube.com/channel/UCGfSeuN8tfQmQaGXzmTkgWg/featured"><button class="youtube"><img src="assets/media/brand/youtube.png" alt="Youtube"></button></a>
 
-                <a href="https://www.twitch.tv/lasersafetysquad"><button class="twitch"><img src="assets/media/brand/twitch.png" alt="Twitch"></button></a>
+                <a href="https://www.twitch.tv/lasersafetysquad"><button class="twitch"><img class="show" src="assets/media/brand/twitch_black.svg" alt="Twitch"><img class="hide" src="assets/media/brand/twitch_purple.svg" alt="Twitch"></button></a>
             </div>
         </div>
 
-        <div class="content-container">
+        <div class="content">
 
             <div class="links-container">
                 <h1>LINKS</h1>
                 <a href="posts"><button class="link">Posts</button></a>
                 <a href="tools"><button class="link">Tools</button></a>
-                <a href="about"><button class="link">About</button></a>
+                <a href="resources"><button class="link">Resources</button></a>
                 <a href="contact"><button class="link">Contact</button></a>
             </div>
 
@@ -32,12 +33,17 @@
                 <h1>LATEST POST</h1>
                 {% assign post = site.posts.first %}
                 <article>
-                    <h2>{{ post.title }}</h2><h3>{{ post.date | date: " %Y.%m.%d" }}</h3><p>{{ post.content }}</p>
+                    <a href="{{ post.url }}">
+                        <h2>{{ post.title }}</h2>
+                    </a>
+                    <h3 class="date">{{ post.date | date: " %Y.%m.%d" }}</h3>
+                    <h3 class="author">Author: {{ post.author }}</h3>
+                    <p>{{ post.content }}</p>
                 </article>
                 <p class="read-more"><a href="{{ post.url }}">Read this post</a></p>
             </div>
         </div>
-        <div class="content-container">
+        <div class="content">
             <div class="video">
                 <h1>LATEST VIDEO</h1>
                 

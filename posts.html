@@ -1,0 +1,13 @@
+---
+layout: main
+title: "LSS - Posts"
+---
+
+{% for post in site.posts %}
+<article class="list-post">
+    <a href='{{ post.url }}'><h2>{{ post.title }}</h2></a>
+    <h3 class="date">{{ post.date | date: " %Y.%m.%d" }}</h3>
+    <h3 class="author">Author: {{ post.author }}</h3>
+    <h3>Categories: {{ post.categories }}</h3>
+</article>
+{% endfor %}

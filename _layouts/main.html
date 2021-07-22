@@ -2,18 +2,26 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="main.css">
+			<link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+			<link rel="icon" type="image/png" href="/favicon.png"/>
 		</head>
 		<body>
-			<div class="page">
-				<div class="sidebar">
-					<img class="logo" src="/media/lss/orangelaser.svg">
-					{{ sidebar-content }}
+			<div class="sidebar">
+				<a href="/">
+					<img src="../assets/media/lss/orangelaser.svg">
+				</a>
+				<div class="links">
+					<a href="/posts"><button>Posts</button></a>
+					<a href="/tools"><button>Tools</button></a>
+					<a href="/resources"><button>Resources</button></a>
+					<a href="/contact"><button>Contact</button></a>
 				</div>
-				<div class="content">
-					{{ content }}
+				<div class="footer">
+					<p><a href="https://github.com/LaserSafetySquad/lasersafetysquad.github.io">Github</a> | <a href="https://jekyllrb.com/">Powered by Jekyll</a></p>
 				</div>
+			</div>
+			<div class="content">
+				{{ content }}
 			</div>
 		</body>
 		

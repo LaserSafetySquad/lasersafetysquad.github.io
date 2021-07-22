@@ -1,4 +1,4 @@
 ---
 layout: home
-title: "test"
+title: "LSS Homepage"
 ---

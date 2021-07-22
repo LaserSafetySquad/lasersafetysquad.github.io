@@ -1,44 +1,4 @@
-<!DOCTYPE html> 
-<html>
-    <head>
-        <title>LSS Homepage</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="/favicon.png"/>
-        <link rel="stylesheet" href="assets/css/home.css">
-    </head>
-
-    <body>
-        <div class="banner">
-            <div class="logo-txt">LASER SAFETY SQUAD</div><div class="est-txt">EST. 2020</div>
-            <div class="banner-buttons-container">
-                <a href="https://www.discord.com"><button class="discord"><img src="assets/media/brand/discord.png" alt="Discord"></button></a>
-
-                <a href="https://www.youtube.com/channel/UCGfSeuN8tfQmQaGXzmTkgWg/featured"><button class="youtube"><img src="assets/media/brand/youtube.png" alt="Youtube"></button></a>
-
-                <a href="https://www.twitch.tv/lasersafetysquad"><button class="twitch"><img class="show" src="assets/media/brand/twitch_black.svg" alt="Twitch"><img class="hide" src="assets/media/brand/twitch_purple.svg" alt="Twitch"></button></a>
-            </div>
-        </div>
-
-        <div class="content">
-
-            <div class="links-container">
-                <h1>LINKS</h1>
-                <a href="posts"><button class="link">Posts</button></a>
-                <a href="tools"><button class="link">Tools</button></a>
-                <a href="resources"><button class="link">Resources</button></a>
-                <a href="contact"><button class="link">Contact</button></a>
-            </div>
-
-            <div class="post">
-                <h1>LATEST POST</h1>
-                
-                <article>
-                    <a href="/guides/Lorem-ipsum.html">
-                        <h2>Lorem Ipsum</h2>
-                    </a>
-                    <h3 class="date"> 2021.07.19</h3>
-                    <h3 class="author">Author: Resdek</h3>
-                    <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac eros a libero semper fringilla sed vel dui. Integer tincidunt leo at sem lobortis, quis auctor lectus commodo. Suspendisse sit amet mollis leo, vitae dignissim eros. Aliquam ex tellus, placerat in convallis vitae, porta in purus. Fusce aliquam ex neque, a ullamcorper velit egestas sed. Curabitur sed consectetur lectus. Nunc in nibh lorem. Proin aliquet eleifend est, eu suscipit nibh fermentum nec. Donec et tempor felis, eu sagittis diam. Proin eu diam vel tortor feugiat elementum at dignissim nunc.</p>
+I"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac eros a libero semper fringilla sed vel dui. Integer tincidunt leo at sem lobortis, quis auctor lectus commodo. Suspendisse sit amet mollis leo, vitae dignissim eros. Aliquam ex tellus, placerat in convallis vitae, porta in purus. Fusce aliquam ex neque, a ullamcorper velit egestas sed. Curabitur sed consectetur lectus. Nunc in nibh lorem. Proin aliquet eleifend est, eu suscipit nibh fermentum nec. Donec et tempor felis, eu sagittis diam. Proin eu diam vel tortor feugiat elementum at dignissim nunc.</p>
 
 <p>In fermentum porta nibh, nec laoreet nisi egestas id. Aliquam ac est ornare elit lacinia eleifend. Nullam venenatis neque in lacus rhoncus mattis. In hac habitasse platea dictumst. Vestibulum et volutpat nulla. Vivamus rutrum iaculis justo, ut maximus lectus congue non. Mauris porttitor purus quis rhoncus laoreet. Morbi eget metus eget ligula hendrerit efficitur. Vivamus blandit accumsan quam id rhoncus.</p>
 
@@ -57,20 +17,4 @@
 <p>Nunc rutrum efficitur lectus a fringilla. Sed blandit semper felis, non accumsan purus semper sed. Integer maximus mi nec urna dignissim accumsan. Vivamus pellentesque neque ut enim efficitur, convallis dictum justo cursus. Praesent id ligula lobortis diam feugiat accumsan ut eget nisi. Pellentesque lobortis velit non urna fermentum malesuada. Suspendisse aliquam purus a ligula condimentum suscipit. Nullam et egestas tortor, ut tempor elit. Etiam vestibulum risus quis ligula varius, vitae pulvinar dui bibendum. In dignissim neque in efficitur bibendum. Curabitur ullamcorper metus a nulla rhoncus euismod. Donec consectetur ornare dui quis sagittis. Donec non vehicula mi. Morbi porttitor eu velit quis cursus. Suspendisse pharetra vitae nisl sed vestibulum.</p>
 
 <p>Ut varius fringilla orci et feugiat. Suspendisse justo velit, auctor eget scelerisque a, condimentum ut diam. Vestibulum eget diam vel nisi auctor bibendum non nec nisl. Mauris aliquam turpis ex, ac maximus arcu elementum sit amet. Maecenas facilisis, purus non pretium viverra, libero magna ornare libero, eget viverra dolor ante et massa. Fusce condimentum vel est nec scelerisque. Integer auctor ex et urna efficitur, vitae finibus quam vulputate. Sed id finibus dui, nec cursus leo. Phasellus elementum lectus in justo maximus rutrum.</p>
-</p>
-                </article>
-                <p class="read-more"><a href="/guides/Lorem-ipsum.html">Read this post</a></p>
-            </div>
-        </div>
-        <div class="content">
-            <div class="video">
-                <h1>LATEST VIDEO</h1>
-                
-                <iframe width="600" height="340" src="https://www.youtube.com/embed/+lastest?list=PLWzlEPXHKIStg2jNpcuYyBd3mef__VFXK" frameborder="0"allowfullscreen></iframe>
-                <!--
-                <iframe width="600" height="340" src="https://www.youtube.com/channel/UCGfSeuN8tfQmQaGXzmTkgWg/videos?view=0&sort=dd" frameborder="0" allowfullscreen></iframe>
-                -->
-            </div>
-        </div>
-    </body>
-</html>
+:ET
