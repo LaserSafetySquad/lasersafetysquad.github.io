@@ -1,3 +1,4 @@
+$orange: #FF5D00;
 $main-font: "Tw Cen MT", "Arial";
 $blue: rgb(0, 162, 255);
 $subtitle: rgb(150, 150, 150);
@@ -5,21 +6,34 @@ $text-color: rgb(212, 212, 212);
 
 article {
 	font-family: $main-font;
-	font-size: 1.2em;
 }
 
-article h2, article h3.date {
+.title, .date {
 	display: inline;
 }
 
-article h2 {
+.title {
 	color: $blue;
-	font-size: 2em;
+	font-size: 3em;
 	transition: color 0.2s;
 }
 
-article h3 {
+.date, .author, .categories {
 	font-weight: lighter;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	color: $subtitle;
+}
+
+.post-content h3 {
+    color: $orange;
+	font-size: 2em;
+}
+
+.post-content p {
+	font-size: 1.3em;
+}
+
+a {
+	color: blue;
+	text-decoration: underline;
 }

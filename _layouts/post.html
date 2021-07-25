@@ -3,8 +3,8 @@ layout: main
 ---
 
 <article>
-    <h2>{{ page.title }}</h2>
+    <h2 class="title">{{ page.title }}</h2>
     <h3 class="date">{{ page.date | date: " %Y.%m.%d" }}</h3>
     <h3 class="author">Author: {{ page.author }}</h3>
-    <p>{{ page.content }}</p>
+    <div class="post-content">{{ page.content }}</div>
 </article>
