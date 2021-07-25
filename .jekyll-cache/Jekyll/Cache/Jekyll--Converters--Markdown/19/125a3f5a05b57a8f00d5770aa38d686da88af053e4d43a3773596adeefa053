@@ -1,9 +1,0 @@
-I"’<h3 id="what-is-it-and-why-do-i-need-it">What is it and why do I need it?</h3>
-<p>Radmin VPN is a VPN service we use to host servers over a private network. It is not the same kind of VPN like you use for privacy, but is instead used for connecting specific computers to each other via a private network. Using it allows for quick and easy server setup and does not require port forwarding which is usually not allowed on public networks.</p>
-
-<p>If youâ€™ve ever used Hamachi, Radmin is essentially the same thing. The main difference being that Radmin allows for no limit to the amount of people in a network, whereas Hamachi requires monthly payment to have more than 5 people in one network.</p>
-
-<p>You need it if you want to play on servers hosted by us. Games like Gmod, Arma, or Minecraft will require you to have the VPN to access our servers.</p>
-
-<h3 id="download-and-install">Download and install</h3>
-:ET

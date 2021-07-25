@@ -34,11 +34,11 @@
                 {% assign post = site.posts.first %}
                 <article>
                     <a href="{{ post.url }}">
-                        <h2>{{ post.title }}</h2>
+                        <h2 class="title">{{ post.title }}</h2>
                     </a>
                     <h3 class="date">{{ post.date | date: " %Y.%m.%d" }}</h3>
                     <h3 class="author">Author: {{ post.author }}</h3>
-                    <p>{{ post.content }}</p>
+                    <div class="post-content">{{ post.content }}</div>
                 </article>
                 <p class="read-more"><a href="{{ post.url }}">Read this post</a></p>
             </div>
