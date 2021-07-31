@@ -1,0 +1,58 @@
+I"	<p>Note that this post assumes you have nothing (no Gmod, CS:S). If you have already played TTT before, please see the “Upgrading to TTT2” section.</p>
+
+<p>Also note that this guide (like every other one that will be written on this site) assumes the reader is a fucking idiot. Don’t be offended if you aren’t a fucking idiot. There are several fucking idiots in this group who know less about computers than my grandmother (which is the whole reason I set this shit up in the first place; It’s a pain in the ass to have to explain to eight different people how to do one thing at eight different levels when I just want to play fucking Gmod).</p>
+
+<h1 id="what-you-will-need">What you will need</h1>
+
+<p>To play TTT with us, there’s a few things you’ll need first.</p>
+
+<h2 id="required">REQUIRED</h2>
+<ul>
+  <li><a href="/guides/Radmin-VPN.html">Radmin VPN</a></li>
+  <li><a href="https://store.steampowered.com/app/4000/Garrys_Mod/">Garry’s Mod</a></li>
+  <li>And either…
+    <ul>
+      <li><a href="https://store.steampowered.com/app/240/CounterStrike_Source/">Counter Strike: Source</a></li>
+      <li>Counter Strike: Source content (will be covered later)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="optional-may-improve-your-experience">OPTIONAL (may improve your experience)</h2>
+
+<ul>
+  <li><a href="https://store.steampowered.com/app/380/HalfLife_2_Episode_One/">Half-Life 2: Episode 1</a></li>
+  <li><a href="https://store.steampowered.com/app/420/HalfLife_2_Episode_Two/">Half-Life 2: Episode 2</a></li>
+</ul>
+
+<p>As stated, the optional items aren’t <em>necessary</em> but some maps and weapons might work better with them. Ultimately, everything here is worth buying at some point but don’t sweat it if you don’t wanna pay for the optional stuff. They goes on sale often and you may want to buy them then (they’re worth playing).</p>
+
+<p>Once you’ve sorted all of that, you’ll need to subscribe to all the addons that we use. You can do so by pressing “Subscribe to All” on the <a href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=1960290210">Workshop Collection</a> (this link opens the page on Steam and your browser may ask if you want to do that). Note that this collection is updated often so you may want to Favorite it or otherwise keep it handy.</p>
+
+<h1 id="getting-css-content">Getting CS:S content</h1>
+
+<p>It is possible to get the required CS:S content without, well, paying for it. It isn’t very hard but it can be risky to find and download it (as in: you may get some malware depending on where you get your files from). It’s also possible that you may not get the full experience that you would get from buying CS:S. I would advise that you buy CS:S when it goes on sale (which it does <a href="https://steamdb.info/app/240/">pretty often</a> and for very cheap, eiether $1.99 or $0.99).</p>
+
+<h1 id="joining-the-game">Joining the game</h1>
+
+<p>As stated in the Radmin VPN guide, most of the time you should be provided with the IP or will be able to get it from Radmin. Just ask if you need this info.</p>
+
+<p>At this point, if you started from scratch, you’re done! If you need to upgrade to TTT2, continue on.</p>
+
+<h1 id="upgrading-to-ttt2">Upgrading to TTT2</h1>
+
+<p>We (Matt and myself) recently tested out TTT2 and decided that it is a really good upgrade to TTT from both a player and server admin perspective. Believe me when I say it really had to be good to warrant the effort of getting everyone to switch over.</p>
+
+<p>To start, there are really two avenues you can take to upgrade yourself.</p>
+
+<h2 id="if-you-dont-have-personal-addons">IF YOU DON’T HAVE PERSONAL ADDONS</h2>
+
+<p>If you <em>don’t</em> have any addons that you care about losing, this method is for you.</p>
+
+<ol>
+  <li>Go to the <a href="steam://openurl/https://steamcommunity.com/app/4000/workshop/">Garry’s Mod workshop</a> (or any workshop, really).</li>
+  <li>On the right panel under “Your Files” click on “Subscribed items”.</li>
+  <li>On the right panel press “Unsubscribe From All”</li>
+  <li></li>
+</ol>
+:ET

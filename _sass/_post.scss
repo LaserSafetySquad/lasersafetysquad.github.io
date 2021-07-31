@@ -6,6 +6,7 @@ $text-color: rgb(212, 212, 212);
 
 article {
 	font-family: $main-font;
+	color: $text-color;
 }
 
 .title, .date {
@@ -24,7 +25,7 @@ article {
 	color: $subtitle;
 }
 
-.post-content h3 {
+.post-content h1 {
     color: $orange;
 	font-size: 2em;
 }
@@ -34,6 +35,14 @@ article {
 }
 
 a {
-	color: blue;
+	color: $blue;
 	text-decoration: underline;
+}
+
+div > ul {
+	font-size: 1.3em;
+}
+
+div > ol {
+	font-size: 1.3em;
 }

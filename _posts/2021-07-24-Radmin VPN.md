@@ -6,7 +6,7 @@ categories: guides
 author: Resdek
 ---
 
-### What is it and why do I need it?
+# What is it and why do I need it?
 
 ![bencer](/assets/media/images/bencer.png)
 
@@ -16,15 +16,15 @@ If you've ever used Hamachi, Radmin is essentially the same thing. However, Radm
 
 You'll need it if you want to play on servers hosted by us. Games like Gmod, Arma, or Minecraft will require you to have the VPN to access our servers.
 
-### Download and install
+# Download and install
 
 Go to [the Radmin VPN website](https://www.radmin-vpn.com/) and press the "Free Download" button. Run the installer and install the program to a desired directory. Note that when the installer says that you must restart your PC for the program to work that ***you must restart your PC for the program to work.*** Don't ask for help until you've done this.
 
-### How to join the network
+# How to join the network
 
 To join the network, open the "Network" menu on the top of Radmin. Hit "Join an Existing Network" and select "Private Network". The network ID and password should be in Discord. If you can't find this info, just ask.
 
-### How to join a server
+# How to join a server
 
 Assuming you are in the network, you should be provided the IP and port of any server being used on that particular day. If not, though, keep reading.
 
