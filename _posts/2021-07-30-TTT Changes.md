@@ -84,6 +84,9 @@ If you have personal addons, you'll need to unsubscribe from the following addon
 - [Defibrillator](steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=801433502)
 - [Advanced Disguiser](steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=606792331)
 - [Door Locker](steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=290945941)
+- [T Suitcase](steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=896084374)
+- [Prop Disguiser](steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=310403737)
+- [Explosive Body](steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=922459145)
 
 You should also consider creating a preset for TTT if you haven't, but it might take a minute if you have lots of non-TTT addons.
 
