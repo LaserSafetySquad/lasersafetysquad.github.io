@@ -1,8 +1,8 @@
-I"�<p>Note that this post assumes you have nothing (no Gmod, CS:S). If you have already played TTT before, please see the “Upgrading to TTT2” section.</p>
+I"6<p>Note that this post assumes you are starting from scratch (no Gmod, CS:S). If you have already played TTT before, please see the “Upgrading to TTT2” section.</p>
 
 <p>Also note that this guide (like every other one that will be written on this site) assumes the reader is a fucking idiot. Don’t be offended if you aren’t a fucking idiot. There are several fucking idiots in this group who know less about computers than my grandmother (which is the whole reason I set this shit up in the first place; It’s a pain in the ass to have to explain to eight different people how to do one thing at eight different levels when I just want to play fucking Gmod).</p>
 
-<h1 id="what-you-will-need">What you will need</h1>
+<h1 id="prerequisites">Prerequisites</h1>
 
 <p>To play TTT with us, there’s a few things you’ll need first.</p>
 
@@ -25,7 +25,7 @@
   <li><a href="https://store.steampowered.com/app/420/HalfLife_2_Episode_Two/">Half-Life 2: Episode 2</a></li>
 </ul>
 
-<p>As stated, the optional items aren’t <em>necessary</em> but some maps and weapons might work better with them. Ultimately, everything here is worth buying at some point but don’t sweat it if you don’t wanna pay for the optional stuff. They goes on sale often and you may want to buy them then (they’re worth playing).</p>
+<p>As stated, the optional items aren’t <em>necessary</em> but some maps and weapons might work better with them. Ultimately, everything here is worth buying at some point but don’t sweat it if you don’t wanna pay for the optional stuff. They go on sale often and you may want to buy them then (they’re worth playing).</p>
 
 <p>Once you’ve sorted all of that, you’ll need to subscribe to all the addons that we use. You can do so by pressing “Subscribe to All” on the <a href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=1960290210">Workshop Collection</a> (this link opens the page on Steam and your browser may ask if you want to do that). Note that this collection is updated often so you may want to Favorite it or otherwise keep it handy.</p>
 
@@ -61,7 +61,7 @@
 
 <h1 id="upgrading-to-ttt2">Upgrading to TTT2</h1>
 
-<p>We (Matt and myself) recently tested out TTT2 and decided that it is a really good upgrade to TTT from both a player and server admin perspective. Believe me when I say it really had to be good to warrant the effort of getting everyone to switch over. In general it just works better and is much less of a headache from the server management side.</p>
+<p>We recently tested out TTT2 and decided that it is a really good upgrade to TTT from both a player and server admin perspective. Believe me when I say it really had to be good to warrant the effort of getting everyone to switch over. In general it just works better and is much less of a headache from the server management side.</p>
 
 <p>There are two main avenues you can use to upgrade your game. You shouldn’t (hopefully) ever have to do something like this again.</p>
 
@@ -94,6 +94,7 @@
   <li><a href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=896084374">T Suitcase</a></li>
   <li><a href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=310403737">Prop Disguiser</a></li>
   <li><a href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=922459145">Explosive Body</a></li>
+  <li><a href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=922334896">TTT Chicken</a></li>
 </ul>
 
 <p>You should also consider creating a preset for TTT if you haven’t, but it might take a minute if you have lots of non-TTT addons.</p>
